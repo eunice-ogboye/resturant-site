@@ -1,0 +1,29 @@
+*{font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+}
+body{
+    background-image: linear-gradient(to right,rgb(238, 55, 92), rgb(110, 18, 110) );
+}
+.legend {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+    margin-top: 0px;
+    
+}
+.empty{
+    background-image: linear-gradient( to right,yellow,red);
+    height: 10px;
+    width: 40%;
+
+}
+.ss p{
+    font-size: 30px;
+    font-weight: bold;
+    margin-top: -20px;
+    color: grey;
+
+}
+.gallery , .google{
+    display: flex;
+    justify-content: space-between;
+}
